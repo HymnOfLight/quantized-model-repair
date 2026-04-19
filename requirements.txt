@@ -1,0 +1,13 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+scipy>=1.10
+cvxpy>=1.4
+# SDP solver backend used by cvxpy. SCS is permissively licensed and fast enough
+# for small/medium repair problems. MOSEK is recommended for production use.
+scs>=3.2
+# Gurobi is optional. Install separately with a valid license for large MILP
+# repair problems:  pip install gurobipy
+gurobipy>=11.0
+matplotlib>=3.7
+tqdm>=4.65
